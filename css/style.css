@@ -8,6 +8,10 @@ h1{
     padding-bottom:1%;
 }
 
+li a:hover{
+    color:coral;
+}
+
 .subtitle{;
     color:black;
     background-color: white;
@@ -31,13 +35,13 @@ h2{
 }
 
 .title{
-    margin-bottom:20%;
+    margin-bottom:10%;
     height:120px;
     padding-top:22%;
 }
 
 .title-2{
-    margin-bottom:20%;
+    margin-bottom:10%;
     height:120px;
     padding-top:22%;
     text-align: left;
@@ -141,4 +145,23 @@ input{
     margin-left:0;
 }
 
+.logo{
+    color:black;
+}
 
+a:hover p.logo{
+    color:coral;
+}
+
+@media (max-width: 623px) {
+ 
+    .desc{
+        font-size:.9em;
+    }
+    
+    
+    
+    
+    
+    
+}
